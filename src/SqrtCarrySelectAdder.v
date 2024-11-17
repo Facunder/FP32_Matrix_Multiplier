@@ -20,10 +20,10 @@ module SqrtCarrySelectAdder #(parameter WIDTH = 16) (
     genvar i;
     generate
         for (i = 0; i < NUM_BLOCKS; i = i + 1) begin : blocks
-            localparam int START = i * BLOCK_SIZE;
-            localparam int END_WIDTH = (i+1) * BLOCK_SIZE - 1;
+            localparam START = i * BLOCK_SIZE;
+            localparam END_WIDTH = (i+1) * BLOCK_SIZE - 1;
             // Handle potential bit width overflow for the last block
-            localparam int CURRENT_WIDTH = (END_WIDTH < WIDTH) ? BLOCK_SIZE : WIDTH - START;
+            localparam CURRENT_WIDTH = (END_WIDTH < WIDTH) ? BLOCK_SIZE : WIDTH - START;
 
             wire [CURRENT_WIDTH-1:0] partial_sum0, partial_sum1;
             wire carry_out0, carry_out1;
