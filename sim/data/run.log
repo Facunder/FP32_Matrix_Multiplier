@@ -1,0 +1,14 @@
+Command: vcs -R -full64 +v2k -fsdb +define+FSDB -sverilog -f file_list.f -l run.log \
+
+*** Using c compiler gcc instead of cc ...
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-fsdb' will be deprecated in a future release.  Please use 
+  '-debug_acc+dmptf -debug_region+cell+encrypt' instead.
+
+
+Error-[P1ARGS-CANTOPN-F] Cannot open file
+  Unable to open 'file_list.f' due to 'No such file or directory'.
+  Please fix the reason mentioned above and continue.
+
+CPU time: .340 seconds to compile

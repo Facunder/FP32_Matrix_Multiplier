@@ -1,0 +1,147 @@
+Command: vcs -R -full64 +v2k -fsdb +define+FSDB -sverilog -f file_list.f -l run.log \
+
+*** Using c compiler gcc instead of cc ...
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-fsdb' will be deprecated in a future release.  Please use 
+  '-debug_acc+dmptf -debug_region+cell+encrypt' instead.
+
+                         Chronologic VCS (TM)
+       Version Q-2020.03-SP2_Full64 -- Sun Nov 17 18:38:42 2024
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../src/FP32Vector16Multiplier.v'
+Parsing design file '../src/FP32Multiplier.v'
+Parsing design file '../src/Radix4BoothEncoder.v'
+Parsing design file '../src/Radix4BoothMultiplier.v'
+Parsing design file '../src/WallaceTree.v'
+Parsing design file '../src/SqrtCarrySelectAdder.v'
+Parsing design file '../src/FP32Adder.v'
+Parsing design file '../src/tb/tb_test_matrix_multiply.v'
+
+Warning-[RVOSFD] Return value discarded
+../src/tb/tb_test_matrix_multiply.v, 126
+  System function '$fscanf' is invoked as task, its return value is discarded.
+  "../src/tb/tb_test_matrix_multiply.v", 126
+  Source info:                 $fscanf(file_rd, "%f", tmp);
+
+
+Warning-[RVOSFD] Return value discarded
+../src/tb/tb_test_matrix_multiply.v, 142
+  System function '$fscanf' is invoked as task, its return value is discarded.
+  "../src/tb/tb_test_matrix_multiply.v", 142
+  Source info:                 $fscanf(file_rd, "%f", tmp);
+
+Parsing design file '../src/timescale.v'
+Top Level Modules:
+       FP32Vector16Multiplier_tb
+No TimeScale specified
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+
+6 modules and 0 UDP read.
+recompiling module FP32Multiplier
+recompiling module Radix4BoothEncoder
+recompiling module compressor32
+recompiling module BlockAdder
+recompiling module FP32Adder
+recompiling module FP32Vector16Multiplier_tb
+All of 6 modules done
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/capsule/eda/synopsys/vcs-2020.03/linux64/lib -L/capsule/eda/synopsys/vcs-2020.03/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _15163_archive_1.so \
+_prev_archive_1.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
+-luclinative /capsule/eda/synopsys/vcs-2020.03/linux64/lib/vcs_tls.o   -Wl,-whole-archive \
+-lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   /capsule/eda/synopsys/vcs-2020.03/linux64/lib/vcs_save_restore_new.o \
+/capsule/eda/synopsys/verdi-2020.03/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread \
+-ldl 
+../simv up to date
+Command: /lamport/makkapakka/linyuzheng/workspace_HDL/RTL/FP32_Matrix_Multiplier/sim/./simv +v2k +define+FSDB -a run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version Q-2020.03-SP2_Full64; Runtime version Q-2020.03-SP2_Full64;  Nov 17 18:38 2024
+================= MATRIX TASK 1 =================
+
+===== Matrix A =====
+1.000000 1.100000 1.200000 1.300000 1.400000 1.500000 1.600000 1.700000 1.800000 1.900000 2.000000 2.100000 2.200000 2.300000 2.400000 2.500000 
+2.000000 2.100000 2.200000 2.300000 2.400000 2.500000 2.600000 2.700000 2.800000 2.900000 3.000000 3.100000 3.200000 3.300000 3.400000 3.500000 
+3.000000 3.100000 3.200000 3.300000 3.400000 3.500000 3.600000 3.700000 3.800000 3.900000 4.000000 4.100000 4.200000 4.300000 4.400000 4.500000 
+4.000000 4.100000 4.200000 4.300000 4.400000 4.500000 4.600000 4.700000 4.800000 4.900000 5.000000 5.100000 5.200000 5.300000 5.400000 5.500000 
+=================
+
+===== Matrix B =====
+-7.960000 -5.960000 -3.960000 -1.960000 
+-7.480000 -5.480000 -3.480000 -1.480000 
+-7.000000 -5.000000 -3.000000 -1.000000 
+-6.520000 -4.520000 -2.520000 -0.520000 
+-6.040000 -4.040000 -2.040000 -0.040000 
+-5.560000 -3.560000 -1.560000 0.440000 
+-5.080000 -3.080000 -1.080000 0.920000 
+-4.600000 -2.600000 -0.600000 1.400000 
+-4.120000 -2.120000 -0.120000 1.880000 
+-3.640000 -1.640000 0.360000 2.360000 
+-3.160000 -1.160000 0.840000 2.840000 
+-2.680000 -0.680000 1.320000 3.320000 
+-2.200000 -0.200000 1.800000 3.800000 
+-1.720000 0.280000 2.280000 4.280000 
+-1.240000 0.760000 2.760000 4.760000 
+-0.760000 1.240000 3.240000 5.240000 
+=================
+
+===== Matrix C =====
+c2d3851e (-105.759995) c2470a3c (-49.759995) 40c7ae14 (6.240000) 4278f5c1 (62.239994) 
+c32f851e (-175.519989) c2af0a3c (-87.519989) 3ef5c280 (0.480000) 42b0f5c3 (88.480003) 
+c37547ac (-245.279968) c2fa8f59 (-125.279976) c0a8f5c8 (-5.280003) 42e570a2 (114.719986) 
+c39d851e (-315.039978) c3230a3d (-163.039993) c130a3d8 (-11.040001) 430cf5c2 (140.959991) 
+=================
+
+================= MATRIX TASK 2 =================
+
+===== Matrix A =====
+100.071236 -89.780731 80.456917 -77.671616 -37.975166 106.801575 -30.605864 7.884174 17.618856 -86.481331 -85.593925 48.438911 -69.381897 9.815663 -100.696892 81.229622 
+117.578606 -62.077888 -65.657608 -63.722530 84.692131 -54.825211 17.362341 71.466812 -7.835996 75.336845 26.107376 63.526810 105.814362 127.010490 118.245911 94.385841 
+12.087176 87.223618 109.891487 29.707438 21.827606 65.843262 -108.581299 111.106735 -124.953072 -48.328949 -60.679352 -12.661351 -88.991226 -107.987068 -126.813637 -106.384422 
+-92.512146 -62.903763 -38.404156 -6.838055 12.729244 64.954651 -114.188766 -94.744011 -41.696602 7.304483 39.444248 -106.541725 83.409149 -14.674363 70.377075 -25.655642 
+=================
+
+===== Matrix B =====
+-61.473179 -25.137142 71.744530 38.173561 
+76.817528 -108.552528 -28.226858 59.320930 
+-17.558060 -66.581467 -66.127029 37.822968 
+105.125786 -96.430351 -24.598492 -12.563531 
+-81.447159 -80.919609 -103.307640 12.034276 
+-60.466454 -66.572151 -94.214836 -52.141872 
+-90.742020 -21.179630 113.164948 62.641357 
+-93.166451 -115.288467 116.770439 -79.627518 
+94.538803 103.095322 19.253401 47.814510 
+20.404373 113.865524 -112.696434 -81.021141 
+12.764212 -2.338792 -67.896339 -33.667942 
+-90.891571 -2.751325 -37.591408 32.158352 
+90.375969 -41.543831 82.225677 71.738220 
+31.246115 102.413788 -124.056717 -107.231804 
+-38.156189 -33.472824 -116.985909 109.922806 
+3.391882 -99.532097 -84.738548 70.582443 
+=================
+
+===== Matrix C =====
+c6f539a0 (-31388.812500) c568d074 (-3725.028320) 46172086 (9672.130859) c5a0729a (-5134.325195) 
+c6c0af79 (-24663.736328) 45a516df (5282.858887) c6936352 (-18865.660156) 45d1d42e (6714.522461) 
+c6904919 (-18468.548828) c738f604 (-47350.015625) 469dd33e (20201.621094) c6cbb95e (-26076.683594) 
+46c910ab (25736.333984) 4640848c (12321.136719) c6f42ada (-31253.425781) c5a68b30 (-5329.398438) 
+=================
+
+$finish called from file "../src/tb/tb_test_matrix_multiply.v", line 201.
+$finish at simulation time                 2215
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2215
+CPU Time:      0.460 seconds;       Data structure size:   0.2Mb
+Sun Nov 17 18:38:47 2024
+CPU time: .950 seconds to compile + .692 seconds to elab + .747 seconds to link + .550 seconds in simulation

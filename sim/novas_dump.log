@@ -1,0 +1,435 @@
+#######################################################################################
+# log primitive debug message of FSDB dumping                                         #
+# This is for R&D to analyze when there are issues happening when FSDB dump           #
+#######################################################################################
+ANF: vcsd_get_serial_mode_status('simv: undefined symbol: vcsd_get_serial_mode_status')
+ANF: vcsd_enable_sva_success_callback('simv: undefined symbol: vcsd_enable_sva_success_callback')
+ANF: vcsd_disable_sva_success_callback('simv: undefined symbol: vcsd_disable_sva_success_callback')
+ANF: vcsd_get_power_scope_name('simv: undefined symbol: vcsd_get_power_scope_name')
+ANF: vcsd_begin_no_value_var_info('simv: undefined symbol: vcsd_begin_no_value_var_info')
+ANF: vcsd_end_no_value_var_info('simv: undefined symbol: vcsd_end_no_value_var_info')
+ANF: vcsd_remove_xprop_merge_mode_callback('simv: undefined symbol: vcsd_remove_xprop_merge_mode_callback')
+ANF: vhpi_get_cb_info('simv: undefined symbol: vhpi_get_cb_info')
+ANF: vhpi_free_handle('simv: undefined symbol: vhpi_free_handle')
+ANF: vhpi_fetch_vcsd_handle('simv: undefined symbol: vhpi_fetch_vcsd_handle')
+ANF: vhpi_fetch_vpi_handle('simv: undefined symbol: vhpi_fetch_vpi_handle')
+ANF: vhpi_has_verilog_parent('simv: undefined symbol: vhpi_has_verilog_parent')
+ANF: vhpi_is_verilog_scope('simv: undefined symbol: vhpi_is_verilog_scope')
+ANF: scsd_xprop_is_enabled('simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: scsd_thread_get_info('simv: undefined symbol: scsd_thread_get_info')
+ANF: scsd_thread_vc_init('simv: undefined symbol: scsd_thread_vc_init')
+ANF: scsd_master_set_delta_sync_cbk('simv: undefined symbol: scsd_master_set_delta_sync_cbk')
+ANF: scsd_fgp_get_fsdb_cores('simv: undefined symbol: scsd_fgp_get_fsdb_cores')
+ANF: vhdi_dt_get_type('simv: undefined symbol: vhdi_dt_get_type')
+ANF: vhdi_dt_get_key('simv: undefined symbol: vhdi_dt_get_key')
+ANF: vhdi_dt_get_vhdl_enum_info('simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
+ANF: vhdi_dt_get_vhdl_physical_info('simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
+ANF: vhdi_dt_get_vhdl_array_info('simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
+ANF: vhdi_dt_get_vhdl_record_info('simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
+ANF: vhdi_def_traverse_module('simv: undefined symbol: vhdi_def_traverse_module')
+ANF: vhdi_def_traverse_scope('simv: undefined symbol: vhdi_def_traverse_scope')
+ANF: vhdi_def_traverse_variable('simv: undefined symbol: vhdi_def_traverse_variable')
+ANF: vhdi_def_get_module_id_by_vhpi('simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
+ANF: vhdi_def_get_handle_by_module_id('simv: undefined symbol: vhdi_def_get_handle_by_module_id')
+ANF: vhdi_def_get_variable_info_by_vhpi('simv: undefined symbol: vhdi_def_get_variable_info_by_vhpi')
+ANF: vhdi_def_free('simv: undefined symbol: vhdi_def_free')
+ANF: vhdi_ist_traverse_scope('simv: undefined symbol: vhdi_ist_traverse_scope')
+ANF: vhdi_ist_traverse_variable('simv: undefined symbol: vhdi_ist_traverse_variable')
+ANF: vhdi_ist_convert_by_vhpi('simv: undefined symbol: vhdi_ist_convert_by_vhpi')
+ANF: vhdi_ist_clone('simv: undefined symbol: vhdi_ist_clone')
+ANF: vhdi_ist_free('simv: undefined symbol: vhdi_ist_free')
+ANF: vhdi_ist_hash_key('simv: undefined symbol: vhdi_ist_hash_key')
+ANF: vhdi_ist_compare('simv: undefined symbol: vhdi_ist_compare')
+ANF: vhdi_ist_get_value_addr('simv: undefined symbol: vhdi_ist_get_value_addr')
+ANF: vhdi_set_scsd_callback('simv: undefined symbol: vhdi_set_scsd_callback')
+ANF: vhdi_cbk_set_force_callback('simv: undefined symbol: vhdi_cbk_set_force_callback')
+ANF: vhdi_trigger_init_force('simv: undefined symbol: vhdi_trigger_init_force')
+ANF: vhdi_ist_check_scsd_callback('simv: undefined symbol: vhdi_ist_check_scsd_callback')
+ANF: vhdi_ist_add_scsd_callback('simv: undefined symbol: vhdi_ist_add_scsd_callback')
+ANF: vhdi_ist_remove_scsd_callback('simv: undefined symbol: vhdi_ist_remove_scsd_callback')
+ANF: vhdi_ist_get_scsd_user_data('simv: undefined symbol: vhdi_ist_get_scsd_user_data')
+ANF: vhdi_add_time_change_callback('simv: undefined symbol: vhdi_add_time_change_callback')
+ANF: vhdi_get_real_value_by_value_addr('simv: undefined symbol: vhdi_get_real_value_by_value_addr')
+ANF: vhdi_get_64_value_by_value_addr('simv: undefined symbol: vhdi_get_64_value_by_value_addr')
+ANF: vhdi_xprop_inst_is_promoted('simv: undefined symbol: vhdi_xprop_inst_is_promoted')
+ANF: vdi_ist_convert_by_vhdi('simv: undefined symbol: vdi_ist_convert_by_vhdi')
+ANF: vhdi_ist_get_module_id('simv: undefined symbol: vhdi_ist_get_module_id')
+ANF: vhdi_refine_foreign_scope_type('simv: undefined symbol: vhdi_refine_foreign_scope_type')
+ANF: vhdi_flush_callback('simv: undefined symbol: vhdi_flush_callback')
+ANF: vhdi_set_orig_name('simv: undefined symbol: vhdi_set_orig_name')
+ANF: vhdi_set_dump_pt('simv: undefined symbol: vhdi_set_dump_pt')
+ANF: vhdi_get_fsdb_option('simv: undefined symbol: vhdi_get_fsdb_option')
+ANF: vhdi_fgp_get_mode('simv: undefined symbol: vhdi_fgp_get_mode')
+ANF: vhdi_node_register_composite_var('simv: undefined symbol: vhdi_node_register_composite_var')
+ANF: vhdi_node_analysis('simv: undefined symbol: vhdi_node_analysis')
+ANF: vhdi_node_id('simv: undefined symbol: vhdi_node_id')
+ANF: vhdi_node_ist_check_scsd_callback('simv: undefined symbol: vhdi_node_ist_check_scsd_callback')
+ANF: vhdi_node_ist_add_scsd_callback('simv: undefined symbol: vhdi_node_ist_add_scsd_callback')
+ANF: vhdi_node_ist_get_value_addr('simv: undefined symbol: vhdi_node_ist_get_value_addr')
+ANF: vhdi_enc_def_traverse_module('simv: undefined symbol: vhdi_enc_def_traverse_module')
+ANF: vhdi_enc_def_traverse_scope('simv: undefined symbol: vhdi_enc_def_traverse_scope')
+ANF: vhdi_enc_def_traverse_variable('simv: undefined symbol: vhdi_enc_def_traverse_variable')
+ANF: vhdi_enc_ist_traverse_scope('simv: undefined symbol: vhdi_enc_ist_traverse_scope')
+ANF: vhdi_enc_ist_traverse_variable('simv: undefined symbol: vhdi_enc_ist_traverse_variable')
+ANF: vhdi_enc_ist_get_module_id('simv: undefined symbol: vhdi_enc_ist_get_module_id')
+ANF: vhdi_enc_def_get_handle_by_module_id('simv: undefined symbol: vhdi_enc_def_get_handle_by_module_id')
+VCS compile option:
+ option[0]: simv
+ option[1]: +v2k
+ option[2]: +define+FSDB
+ option[3]: -a
+ option[4]: run.log
+ option[5]: /capsule/eda/synopsys/vcs-2020.03/linux64/bin/vcs1
+ option[6]: -Mcc=gcc
+ option[7]: -Mcplusplus=g++
+ option[8]: -Masflags=
+ option[9]: -Mcfl= -pipe -fPIC -O -I/capsule/eda/synopsys/vcs-2020.03/include 
+ option[10]: -Mxllcflags=
+ option[11]: -Mxcflags= -pipe -fPIC -I/capsule/eda/synopsys/vcs-2020.03/include
+ option[12]: -Mldflags= -rdynamic 
+ option[13]: -Mout=simv
+ option[14]: -Mamsrun=
+ option[15]: -Mvcsaceobjs=
+ option[16]: -Mobjects= /capsule/eda/synopsys/vcs-2020.03/linux64/lib/libvirsim.so /capsule/eda/synopsys/vcs-2020.03/linux64/lib/liberrorinf.so /capsule/eda/synopsys/vcs-2020.03/linux64/lib/libsnpsmalloc.so /capsule/eda/synopsys/vcs-2020.03/linux64/lib/libvfs.so 
+ option[17]: -Mexternalobj=
+ option[18]: -Msaverestoreobj=/capsule/eda/synopsys/vcs-2020.03/linux64/lib/vcs_save_restore_new.o
+ option[19]: -Mcrt0=
+ option[20]: -Mcrtn=
+ option[21]: -Mcsrc=
+ option[22]: -Msyslibs=/capsule/eda/synopsys/verdi-2020.03/share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[23]: -l
+ option[24]: run.log
+ option[25]: -Xvcs_run_simv=1
+ option[26]: -full64
+ option[27]: +v2k
+ option[28]: -fsdb
+ option[29]: -P
+ option[30]: /capsule/eda/synopsys/verdi-2020.03/share/PLI/VCS/LINUX64/verdi.tab
+ option[31]: +define+FSDB
+ option[32]: -picarchive
+ option[33]: -sverilog
+ option[34]: -gen_obj
+ option[35]: -f
+ option[36]: file_list.f
+ option[37]: -load
+ option[38]: /capsule/eda/synopsys/verdi-2020.03/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+Chronologic Simulation VCS Release Q-2020.03-SP2_Full64
+Linux 3.10.0-1160.80.1.el7.x86_64 #1 SMP Tue Nov 8 15:48:59 UTC 2022 x86_64
+CPU cores: 56
+Limit information:
+======================================
+cputime		43200
+filesize		unlimited
+datasize		unlimited
+stacksize		unlimited
+coredumpsize		0 kbytes
+memoryuse		4194304 kbytes
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked		64 kbytes
+maxproc		312
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+PVSHOME=/capsule/eda/cadence/pvs161
+EDA_BASE=/capsule/eda
+CPLUS_INCLUDE_PATH=/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0/include/
+MANPATH=/usr/share/env/modules-4.7.1/share/man:
+QRC_HOME=/capsule/eda/cadence/ext161
+XDG_SESSION_ID=16390
+KEYSIGHT_APPS=/capsule/eda/keysight
+HOSTNAME=cloud-mgmt01
+TERM_PROGRAM=vscode
+UNAME=/bin/uname
+CDSROOT=/capsule/eda/cadence/ic618
+_LMFILES__modshare=/usr/share/env/modulefiles/synopsys/finesim/2020.03:1:/usr/share/env/modulefiles/synopsys/fm/2019.12:1:/usr/share/env/modulefiles/synopsys/coretools/2017.06:1:/usr/share/env/modulefiles/cadence/confrml/20.22:1:/usr/share/env/modulefiles/synopsys/vcs/2020.03:1:/usr/share/env/modulefiles/cadence/xcelium/17.1:1:/usr/share/env/modulefiles/synopsys/prime/2019.03:1:/usr/share/env/modulefiles/cadence/spectre/19.1:1:/usr/share/env/modulefiles/systools/htop/2.2.0:1:/usr/share/env/modulefiles/synopsys/icc/2019.03:1:/usr/share/env/modulefiles/mentor/calibre/2020.3:1:/usr/share/env/modulefiles/synopsys/starrc/2019.03:1:/usr/share/env/modulefiles/synopsys/lc/2019.03:1:/usr/share/env/modulefiles/cadence/innovus/19.1:1:/usr/share/env/modulefiles/cadence/emx/5.6:1:/usr/share/env/modulefiles/cadence/ic/618:1:/usr/share/env/modulefiles/cadence/genus/20.1:1:/usr/share/env/modulefiles/synopsys/ppwr/2019.03:1:/usr/share/env/modulefiles/synopsys/spyglass/2019.06:1:/usr/share/env/modulefiles/mathworks/matlab/2020b:1:/usr/share/env/modulefiles/cadence/qrc/16.1:1:/usr/share/env/modulefiles/mentor/tessent/2020.3:1:/usr/share/env/modulefiles/mentor/powerpro/10.3c:1:/usr/share/env/modulefiles/cadence/jasper/2020.09:1:/usr/share/env/modulefiles/cadence/peakview/5.1:1:/usr/share/env/modulefiles/synopsys/xa/2018.09:1:/usr/share/env/modulefiles/keysight/ads/2021u2:1:/usr/share/env/modulefiles/synopsys/fusioncompiler/2019.12:1:/usr/share/env/modulefiles/synopsys/txs/2019.03:1:/usr/share/env/modulefiles/cadence/skillpro/4.2F:1:/usr/share/env/modulefiles/synopsys/wv/2019.06:1:/usr/share/env/modulefiles/synopsys/icc2/2019.12:1:/usr/share/env/modulefiles/synopsys/sentaurus/2019.03:1:/usr/share/env/modulefiles/synopsys/syn/2019.03:1:/usr/share/env/modulefiles/synopsys/verdi/2020.03:1
+SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+SELINUX_ROLE_REQUESTED=
+SCRNAME=vcs
+NOVAS_HOME=/capsule/eda/synopsys/verdi-2020.03
+MODULEPATH_modshare=/usr/share/env/modulefiles/arm:1:/usr/share/env/modulefiles/keysight:1:/usr/share/env/modulefiles/empyrean:1:/usr/share/env/modulefiles/xpeedic:1:/usr/share/env/modulefiles/mentor:1:/usr/share/env/modulefiles/comsol:1:/usr/share/env/modulefiles/ansys:1:/usr/share/env/modulefiles/synopsys:1:/usr/share/env/modulefiles/mathworks:1:/usr/share/env/modulefiles/systools:1:/usr/share/env/modulefiles/cadence:1:/usr/share/env/modulefiles/xilinx:1
+VCS_DEPTH=0
+HOST=cloud-mgmt01
+MODULES_CMD=/usr/share/env/modules-4.7.1/libexec/modulecmd.tcl
+SHELL=/bin/bash
+TERM=xterm-256color
+GENUSHOME=/capsule/eda/cadence/genus201
+HISTSIZE=1000
+SSH_CLIENT=10.162.249.15 57395 22
+VCS_BITMODE=64-bit
+DESIGNWARE_HOME=/capsule/eda/synopsys/designware
+LORENTZ_LICENSE_FILE=5260@license-server01
+CONDA_SHLVL=2
+LD_PRELOAD=/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0/lib64/libstdc++.so.6:/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0/lib64/libstdc++.so.6:/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0/lib64/libstdc++.so.6:
+CONDA_PROMPT_MODIFIER=(3DGS) 
+SELINUX_USE_CURRENT_RANGE=
+TERM_PROGRAM_VERSION=1.95.1
+CDS_LOAD_ENV=CSF
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+VCS_LOG_FILE=run.log
+INTSFTD_LICENSE_FILE=1830@license-server01
+MC2_INSTALL_DIR=/capsule/eda/tsmc/MC2_2013.12.00.f
+CDS_HOME=/capsule/eda/cadence/ic618
+LC_ALL=C
+SNPS_VCS_INTERNAL_ROOT_PID=18715
+Mathworks=/capsule/eda/mathworks
+GROUP=linyuzheng
+USER=linyuzheng
+LD_LIBRARY_PATH=/capsule/eda/synopsys/vcs-2020.03/lib:/capsule/eda/synopsys/vcs-2020.03/linux64/lib:/capsule/eda/lib64:/capsule/eda/synopsys/verdi-2020.03/share/PLI/VCS/LINUX:/capsule/eda/synopsys/verdi-2020.03/share/PLI/VCS/LINUX64
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+W3264_NO_HOST_CHECK=1
+CONDA_EXE=/capsule/home/linyuzheng/miniforge3/bin/conda
+SCRIPT_NAME=vcs
+SYNOPSYS_APPS=/capsule/eda/synopsys
+MODULES_LMALTNAME=htop/2.2.0&htop/default&htop:ads/2021u2&ads/default&ads:ic/618&ic/default&ic:emx/5.6&emx/default&emx:skillpro/4.2F&skillpro/default&skillpro:peakview/5.1&peakview/default&peakview:qrc/16.1&qrc/default&qrc:spectre/19.1&spectre/default&spectre:xcelium/17.1&xcelium/default&xcelium:innovus/19.1&innovus/default&innovus:confrml/20.22&confrml/default&confrml:jasper/2020.09&jasper/default&jasper:genus/20.1&genus/default&genus:coretools/2017.06&coretools/default&coretools:fm/2019.12&fm/default&fm:finesim/2020.03&finesim/default&finesim:fusioncompiler/2019.12&fusioncompiler/default&fusioncompiler:icc/2019.03&icc/default&icc:icc2/2019.12&icc2/default&icc2:lc/2019.03&lc/default&lc:prime/2019.03&prime/default&prime:ppwr/2019.03&ppwr/default&ppwr:sentaurus/2019.03&sentaurus/default&sentaurus:spyglass/2019.06&spyglass/default&spyglass:starrc/2019.03&starrc/default&starrc:syn/2019.03&syn/default&syn:txs/2019.03&txs/default&txs:vcs/2020.03&vcs/default&vcs:verdi/2020.03&verdi/default&verdi:wv/2019.06&wv/default&wv:xa/2018.09&xa/default&xa:calibre/2020.3&calibre/default&calibre:tessent/2020.3&tessent/default&tessent:powerpro/10.3c&powerpro/default&powerpro:matlab/2020b&matlab/default&matlab
+ENV=/usr/share/env/modules-4.7.1/init/profile.sh
+VCS_MX_HOME_INTERNAL=1
+HOSTTYPE=x86_64-linux
+SNPSLMD_LICENSE_FILE=27000@license-server02
+SPECTRE=/capsule/eda/cadence/spectre191
+AMSHOME=/capsule/eda/cadence/xcelium171
+APACHEDA_LICENSE_FILE=1881@license-server01
+OVA_UUM=0
+K2_VIEWER_HOME=/capsule/eda/cadence/pvs161/tools/K2/Viewer
+MKL_INTERFACE_LAYER=LP64,GNU
+VCS_MODE_FLAG=64
+cds_root=/capsule/eda/cadence/ic618
+_CE_CONDA=
+CONDA_PREFIX_1=/capsule/home/linyuzheng/miniforge3
+LECHOME=/capsule/eda/cadence/confrml20.22
+MAIL=/var/spool/mail/linyuzheng
+PATH=.:/capsule/eda/empyrean/icexplorer-xtop-2019.06/bin:/capsule/eda/empyrean/skipper-2019.06/bin:/capsule/eda/tsmc/MC2_2013.12.00.f/bin:/capsule/eda/mathworks/matlab-2020b/bin:/capsule/eda/mentor/powerpro-10.3c/powerpro/bin:/capsule/eda/mentor/tessent_2020.3/bin:/capsule/eda/mentor/aoi_cal_2020.3_16.11/bin:/capsule/eda/synopsys/nLint-201509SP1/bin:/capsule/eda/synopsys/leda-2013.03/bin:/capsule/eda/synopsys/astro-2007.03/bin:/capsule/eda/synopsys/xa-2018.09/bin:/capsule/eda/synopsys/wv-2019.06/bin:/capsule/eda/synopsys/verdi-2020.03/bin:/capsule/eda/synopsys/vcs-2020.03/bin:/capsule/eda/synopsys/txs-2019.03/bin:/capsule/eda/synopsys/syn-2019.03/bin:/capsule/eda/synopsys/starrc-2019.03/bin:/capsule/eda/synopsys/spyglass-2019.06/SPYGLASS_HOME/bin:/capsule/eda/synopsys/sentaurus-2019.03/bin:/capsule/eda/synopsys/ppwr-2019.03/bin:/capsule/eda/synopsys/prime-2019.03/bin:/capsule/eda/synopsys/lc-2019.03/bin:/capsule/eda/synopsys/icc2-2019.12/bin:/capsule/eda/synopsys/icc-2019.03/bin:/capsule/eda/synopsys/fusioncompiler-2019.12/bin:/capsule/eda/synopsys/finesim-2020.03/bin:/capsule/eda/synopsys/fm-2019.12/bin:/capsule/eda/synopsys/coretools-2017.06/bin:/capsule/eda/cadence/genus201/tools/bin:/capsule/eda/cadence/genus201/bin:/capsule/eda/cadence/jasper-2020.09/bin:/capsule/eda/cadence/confrml20.22/tools.lnx86/bin:/capsule/eda/cadence/confrml20.22/bin:/capsule/eda/cadence/innovus191/tools/bin:/capsule/eda/cadence/innovus191/bin:/capsule/eda/cadence/xcelium171/tools/bin:/capsule/eda/cadence/xcelium171/bin:/capsule/eda/cadence/spectre191/tools/bin:/capsule/eda/cadence/spectre191/bin:/capsule/eda/cadence/pvs161/tools/K2/MaskCompose/bin:/capsule/eda/cadence/pvs161/tools/K2/Viewer/bin:/capsule/eda/cadence/pvs161/tools/K2/bin:/capsule/eda/cadence/pvs161/tools/bin:/capsule/eda/cadence/ext161/tools/bin:/capsule/eda/cadence/ext161/bin:/capsule/eda/lorentz/peakview-5.1.2/bin:/capsule/eda/cadence/emx/modelgen64-2.19:/capsule/eda/cadence/emx/emx64-5.6.1:/capsule/eda/cadence/ic618/tools/dfII/bin:/capsule/eda/cadence/ic618/tools/bin:/capsule/eda/cadence/ic618/bin:/capsule/eda/cadence/assura416-618/tools/bin:/capsule/eda/cadence/assura416-618/bin:/capsule/eda/keysight/ads-2021u2/bin:/capsule/eda/systools/htop-2.2.0/bin:/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0/bin:/capsule/home/lizhouwu/Install/cuda-toolkit/cuda-11.8/bin:/capsule/home/lizhouwu/Install/cuda-toolkit/cuda-11.8/nvvm/bin:/capsule/home/linyuzheng/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0/bin:/capsule/home/lizhouwu/Install/cuda-toolkit/cuda-11.8/bin:/capsule/home/lizhouwu/Install/cuda-toolkit/cuda-11.8/nvvm/bin:/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0/bin:/capsule/home/lizhouwu/Install/cuda-toolkit/cuda-11.8/bin:/capsule/home/lizhouwu/Install/cuda-toolkit/cuda-11.8/nvvm/bin:/capsule/home/linyuzheng/.cargo/bin:/capsule/home/linyuzheng/miniforge3/envs/3DGS/bin:/capsule/home/linyuzheng/miniforge3/condabin:/usr/share/env/modules-4.7.1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/capsule/home/linyuzheng/.local/bin:/capsule/home/linyuzheng/bin:/capsule/opt/sge_wrapper
+GSETTINGS_SCHEMA_DIR=/capsule/home/linyuzheng/miniforge3/envs/3DGS/share/glib-2.0/schemas
+CONDA_MKL_INTERFACE_LAYER_BACKUP=
+XML_CATALOG_FILES=file:///capsule/home/linyuzheng/miniforge3/envs/3DGS/etc/xml/catalog file:///etc/xml/catalog
+SNPS_VCS_INTERNAL_CURR_PID=18715
+CALIBRE_HOME=/capsule/eda/mentor/aoi_cal_2020.3_16.11
+VERDI_HOME=/capsule/eda/synopsys/verdi-2020.03
+PEAKHOME=/capsule/eda/lorentz/peakview-5.1.2
+C_INCLUDE_PATH=/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0/include/
+CONDA_PREFIX=/capsule/home/linyuzheng/miniforge3/envs/3DGS
+LBS_BASE_SYSTEM=LBS_SGE
+PWD=/lamport/makkapakka/linyuzheng/workspace_HDL/RTL/FP32_Matrix_Multiplier/sim
+VCS_HOME=/capsule/eda/synopsys/vcs-2020.03
+_LMFILES_=/usr/share/env/modulefiles/systools/htop/2.2.0:/usr/share/env/modulefiles/keysight/ads/2021u2:/usr/share/env/modulefiles/cadence/ic/618:/usr/share/env/modulefiles/cadence/emx/5.6:/usr/share/env/modulefiles/cadence/skillpro/4.2F:/usr/share/env/modulefiles/cadence/peakview/5.1:/usr/share/env/modulefiles/cadence/qrc/16.1:/usr/share/env/modulefiles/cadence/spectre/19.1:/usr/share/env/modulefiles/cadence/xcelium/17.1:/usr/share/env/modulefiles/cadence/innovus/19.1:/usr/share/env/modulefiles/cadence/confrml/20.22:/usr/share/env/modulefiles/cadence/jasper/2020.09:/usr/share/env/modulefiles/cadence/genus/20.1:/usr/share/env/modulefiles/synopsys/coretools/2017.06:/usr/share/env/modulefiles/synopsys/fm/2019.12:/usr/share/env/modulefiles/synopsys/finesim/2020.03:/usr/share/env/modulefiles/synopsys/fusioncompiler/2019.12:/usr/share/env/modulefiles/synopsys/icc/2019.03:/usr/share/env/modulefiles/synopsys/icc2/2019.12:/usr/share/env/modulefiles/synopsys/lc/2019.03:/usr/share/env/modulefiles/synopsys/prime/2019.03:/usr/share/env/modulefiles/synopsys/ppwr/2019.03:/usr/share/env/modulefiles/synopsys/sentaurus/2019.03:/usr/share/env/modulefiles/synopsys/spyglass/2019.06:/usr/share/env/modulefiles/synopsys/starrc/2019.03:/usr/share/env/modulefiles/synopsys/syn/2019.03:/usr/share/env/modulefiles/synopsys/txs/2019.03:/usr/share/env/modulefiles/synopsys/vcs/2020.03:/usr/share/env/modulefiles/synopsys/verdi/2020.03:/usr/share/env/modulefiles/synopsys/wv/2019.06:/usr/share/env/modulefiles/synopsys/xa/2018.09:/usr/share/env/modulefiles/mentor/calibre/2020.3:/usr/share/env/modulefiles/mentor/tessent/2020.3:/usr/share/env/modulefiles/mentor/powerpro/10.3c:/usr/share/env/modulefiles/mathworks/matlab/2020b
+K2_MASKCOMPOSE_HOME=/capsule/eda/cadence/pvs161/tools/K2/MaskCompose
+LANG=en_US.UTF-8
+SKILLPRO_LICENSE_FILE=5888@license-server01
+MODULEPATH=/usr/share/env/modulefiles/cadence:/usr/share/env/modulefiles/synopsys:/usr/share/env/modulefiles/mentor:/usr/share/env/modulefiles/keysight:/usr/share/env/modulefiles/mathworks:/usr/share/env/modulefiles/systools:/usr/share/env/modulefiles/xpeedic:/usr/share/env/modulefiles/xilinx:/usr/share/env/modulefiles/comsol:/usr/share/env/modulefiles/empyrean:/usr/share/env/modulefiles/ansys:/usr/share/env/modulefiles/arm
+SGE_ROOT=/capsule/opt/sge_wrapper
+LOADEDMODULES=htop/2.2.0:ads/2021u2:ic/618:emx/5.6:skillpro/4.2F:peakview/5.1:qrc/16.1:spectre/19.1:xcelium/17.1:innovus/19.1:confrml/20.22:jasper/2020.09:genus/20.1:coretools/2017.06:fm/2019.12:finesim/2020.03:fusioncompiler/2019.12:icc/2019.03:icc2/2019.12:lc/2019.03:prime/2019.03:ppwr/2019.03:sentaurus/2019.03:spyglass/2019.06:starrc/2019.03:syn/2019.03:txs/2019.03:vcs/2020.03:verdi/2020.03:wv/2019.06:xa/2018.09:calibre/2020.3:tessent/2020.3:powerpro/10.3c:matlab/2020b
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+SELINUX_LEVEL_REQUESTED=
+VCS_CC=gcc
+LOCAL_ENV=/usr/share/env
+LM_LICENSE_FILE=59001@miller:5771@license-server01:27080@license-server01
+SKILLPRO_PATH=/capsule/eda/cadence/skillpro_v4.2F
+INNOVUS=/capsule/eda/cadence/innovus191
+SSL_CERT_DIR=/etc/pki/tls/certs
+CXX=/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0/bin/g++
+_CE_M=
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HISTCONTROL=ignoredups
+VCS_ARG_ADDED_FOR_TMP=1
+SNPS_VCS_TMPDIR=/tmp/vcs_20241115093029_18715
+VCS_LIC_EXPIRE_WARNING=1
+CADENCE_APPS=/capsule/eda/cadence
+PATH_modshare=/capsule/eda/synopsys/finesim-2020.03/bin:1:/capsule/eda/cadence/emx/modelgen64-2.19:1:/capsule/eda/synopsys/leda-2013.03/bin:1:/capsule/eda/mathworks/matlab-2020b/bin:1:/capsule/eda/cadence/spectre191/bin:1:/capsule/eda/cadence/spectre191/tools/bin:1:/capsule/home/linyuzheng/.cargo/bin:1:/capsule/eda/cadence/innovus191/tools/bin:1:/capsule/eda/cadence/jasper-2020.09/bin:1:/capsule/eda/cadence/genus201/bin:1:/capsule/eda/cadence/genus201/tools/bin:1:/capsule/eda/synopsys/spyglass-2019.06/SPYGLASS_HOME/bin:1:/capsule/eda/synopsys/xa-2018.09/bin:1:/capsule/eda/cadence/innovus191/bin:1:/capsule/home/linyuzheng/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:1:/capsule/eda/keysight/ads-2021u2/bin:1:/capsule/eda/synopsys/sentaurus-2019.03/bin:1:/capsule/eda/cadence/ic618/bin:1:/capsule/eda/synopsys/nLint-201509SP1/bin:1:/usr/local/bin:1:/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0/bin:1:/capsule/eda/systools/htop-2.2.0/bin:1:/capsule/eda/synopsys/starrc-2019.03/bin:1:/capsule/eda/synopsys/lc-2019.03/bin:1:/capsule/eda/synopsys/icc-2019.03/bin:1:/capsule/home/lizhouwu/Install/cuda-toolkit/cuda-11.8/nvvm/bin:1:/capsule/eda/synopsys/ppwr-2019.03/bin:1:/capsule/eda/cadence/xcelium171/bin:1:/capsule/eda/cadence/ext161/tools/bin:1:/capsule/eda/cadence/ext161/bin:1:/capsule/eda/mentor/tessent_2020.3/bin:1:/capsule/eda/synopsys/astro-2007.03/bin:1:/capsule/eda/cadence/pvs161/tools/K2/bin:1:/capsule/eda/synopsys/txs-2019.03/bin:1:/capsule/eda/synopsys/fusioncompiler-2019.12/bin:1:/capsule/eda/cadence/assura416-618/tools/bin:1:/usr/local/sbin:1:/capsule/eda/synopsys/icc2-2019.12/bin:1:/capsule/eda/synopsys/verdi-2020.03/bin:1:/usr/share/env/modules-4.7.1/bin:1:/capsule/home/lizhouwu/Install/cuda-toolkit/cuda-11.8/bin:1:/capsule/eda/synopsys/coretools-2017.06/bin:1:/capsule/eda/cadence/emx/emx64-5.6.1:2:/capsule/eda/synopsys/vcs-2020.03/bin:1:/capsule/eda/cadence/confrml20.22/tools.lnx86/bin:1:/capsule/eda/cadence/confrml20.22/bin:1:/capsule/eda/cadence/pvs161/tools/K2/MaskCompose/bin:1:/capsule/eda/cadence/xcelium171/tools/bin:1:/capsule/eda/mentor/aoi_cal_2020.3_16.11/bin:1:/capsule/eda/cadence/ic618/tools/dfII/bin:1:/capsule/eda/cadence/assura416-618/bin:1:/usr/sbin:1:/capsule/eda/synopsys/wv-2019.06/bin:1:/capsule/home/linyuzheng/miniforge3/envs/3DGS/bin:1:/capsule/eda/synopsys/syn-2019.03/bin:1:/capsule/home/linyuzheng/miniforge3/condabin:1:/capsule/eda/synopsys/fm-2019.12/bin:1:/capsule/home/linyuzheng/bin:1:/capsule/eda/cadence/ic618/tools/bin:1:/usr/bin:1:/capsule/eda/synopsys/prime-2019.03/bin:1:/capsule/eda/cadence/pvs161/tools/K2/Viewer/bin:1:/capsule/eda/lorentz/peakview-5.1.2/bin:1:/capsule/home/linyuzheng/.local/bin:1:/capsule/opt/sge_wrapper:1:/capsule/eda/mentor/powerpro-10.3c/powerpro/bin:1:/capsule/eda/cadence/pvs161/tools/bin:1
+SHLVL=7
+HOME=/capsule/home/linyuzheng
+OSTYPE=linux
+VSCODE_GIT_ASKPASS_MAIN=/capsule/home/linyuzheng/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js
+MGC_HOME=/capsule/eda/mentor/aoi_cal_2020.3_16.11
+CDS_AUTO_64BIT=ALL
+GCCHOME=/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0
+ICEXPLORER_XTOP_HOME=/capsule/eda/empyrean/icexplorer-xtop-2019.06
+VCS_COM=/capsule/eda/synopsys/vcs-2020.03/linux64/bin/vcs1
+MENTOR_APPS=/capsule/eda/mentor
+HPEESOF_DIR=/capsule/eda/keysight/ads-2021u2
+VENDOR=unknown
+BASH_ENV=/usr/share/env/modules-4.7.1/init/bash
+SKI_HOME=/capsule/eda/empyrean/skipper-2019.06
+SYN_SENT=/capsule/eda/synopsys/sentaurus-2019.03
+JASPER=/capsule/eda/cadence/jasper-2020.09
+CDS_XVNC_TENBASE=+
+MACHTYPE=x86_64
+CONDA_PYTHON_EXE=/capsule/home/linyuzheng/miniforge3/bin/python
+LOGNAME=linyuzheng
+MGLS_LICENSE_FILE=1717@license-server01
+SNPS_VCS_INTERNAL_ROOT_START_TIME=1731663030.110526791
+MODULES_LMALTNAME_modshare=matlab/2020b&matlab/default&matlab:1:vcs/2020.03&vcs/default&vcs:1:htop/2.2.0&htop/default&htop:1:txs/2019.03&txs/default&txs:1:spyglass/2019.06&spyglass/default&spyglass:1:fusioncompiler/2019.12&fusioncompiler/default&fusioncompiler:1:skillpro/4.2F&skillpro/default&skillpro:1:jasper/2020.09&jasper/default&jasper:1:calibre/2020.3&calibre/default&calibre:1:ic/618&ic/default&ic:1:spectre/19.1&spectre/default&spectre:1:xcelium/17.1&xcelium/default&xcelium:1:prime/2019.03&prime/default&prime:1:ads/2021u2&ads/default&ads:1:xa/2018.09&xa/default&xa:1:confrml/20.22&confrml/default&confrml:1:qrc/16.1&qrc/default&qrc:1:peakview/5.1&peakview/default&peakview:1:icc2/2019.12&icc2/default&icc2:1:icc/2019.03&icc/default&icc:1:lc/2019.03&lc/default&lc:1:starrc/2019.03&starrc/default&starrc:1:sentaurus/2019.03&sentaurus/default&sentaurus:1:syn/2019.03&syn/default&syn:1:verdi/2020.03&verdi/default&verdi:1:coretools/2017.06&coretools/default&coretools:1:fm/2019.12&fm/default&fm:1:finesim/2020.03&finesim/default&finesim:1:innovus/19.1&innovus/default&innovus:1:emx/5.6&emx/default&emx:1:genus/20.1&genus/default&genus:1:wv/2019.06&wv/default&wv:1:tessent/2020.3&tessent/default&tessent:1:powerpro/10.3c&powerpro/default&powerpro:1:ppwr/2019.03&ppwr/default&ppwr:1
+XDG_DATA_DIRS=/capsule/home/linyuzheng/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+SSH_CONNECTION=10.162.249.15 57395 192.168.69.240 22
+VSCODE_GIT_IPC_HANDLE=/run/user/1119/vscode-git-c34ae90c07.sock
+LEDA_PATH=/capsule/eda/synopsys/leda-2013.03
+CDS_LIC_FILE=5280@license-server01
+MODULESHOME=/usr/share/env/modules-4.7.1
+VSCODE_IPC_HOOK_CLI=/run/user/1119/vscode-ipc-165eba93-4e1b-4d04-8265-c57b6fe85f6b.sock
+EMXHOME=/capsule/eda/cadence/emx
+CONDA_DEFAULT_ENV=3DGS
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+IUSHOME=/capsule/eda/cadence/xcelium171
+LOADEDMODULES_modshare=vcs/2020.03:1:prime/2019.03:1:xa/2018.09:1:genus/20.1:1:ic/618:1:emx/5.6:1:innovus/19.1:1:icc/2019.03:1:fusioncompiler/2019.12:1:qrc/16.1:1:wv/2019.06:1:icc2/2019.12:1:calibre/2020.3:1:jasper/2020.09:1:peakview/5.1:1:fm/2019.12:1:skillpro/4.2F:1:htop/2.2.0:1:tessent/2020.3:1:powerpro/10.3c:1:ads/2021u2:1:lc/2019.03:1:starrc/2019.03:1:txs/2019.03:1:confrml/20.22:1:xcelium/17.1:1:ppwr/2019.03:1:spyglass/2019.06:1:matlab/2020b:1:spectre/19.1:1:sentaurus/2019.03:1:syn/2019.03:1:verdi/2020.03:1:coretools/2017.06:1:finesim/2020.03:1
+EDA_LOADED=1
+BROWSER=/capsule/home/linyuzheng/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh
+sysc_uni_pwd=/lamport/makkapakka/linyuzheng/workspace_HDL/RTL/FP32_Matrix_Multiplier/sim
+GIT_ASKPASS=/capsule/home/linyuzheng/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh
+VSCODE_GIT_ASKPASS_NODE=/capsule/home/linyuzheng/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node
+CC=/capsule/home/lizhouwu/Install/gcc/gcc_11_4_0/bin/gcc
+XDG_RUNTIME_DIR=/run/user/1119
+VCS_ARCH=linux64
+STDB=/capsule/home/linyuzheng/STDB
+RFDE_SKILL_DIR=/capsule/eda/keysight/ads-2021u2/idf/skill/6.1.8
+TOOL_HOME=/capsule/eda/synopsys/vcs-2020.03/linux64
+ASSURAHOME=/capsule/eda/cadence/assura416-618
+K2_HOME=/capsule/eda/cadence/pvs161/tools/K2
+ADS_LICENSE_FILE=1708@license-server01
+COLORTERM=truecolor
+BASH_FUNC_module()=() {  _module_raw "$@" 2>&1
+}
+BASH_FUNC__module_raw()=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/env/modules-4.7.1/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/share/env/modules-4.7.1/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+BASH_FUNC_ml()=() {  module ml "$@"
+}
+_=./simv
+VCS_HEAP_EXEC=true
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_EXEC_DONE=1
+DVE=/capsule/eda/synopsys/vcs-2020.03/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+FLEXLM_BORROWFILE=/capsule/home/linyuzheng/.cloud-mgmt01-borrow.txt
+Runtime command line arguments:
+argv[0]=simv
+argv[1]=+v2k
+argv[2]=+define+FSDB
+argv[3]=-a
+argv[4]=run.log
+312 profile - 100
+          CPU/Mem usage: 0.100 sys,  0.330 user,  283.46M mem
+313 Elapsed time:    0:00:01    Fri Nov 15 17:30:36 2024
+314 pliAppInit
+315 FSDB_GATE is set.
+316 FSDB_RTL is set.
+317 FSDB_RTL is set.
+318 FSDB_FIELDTYPE is set.
+319 Enable Parallel Dumping.
+320 pliAppMiscSet: New Sim Round
+321 pliEntryInit
+322 LIBSSCORE=found /capsule/eda/synopsys/verdi-2020.03/share/PLI/lib/LINUXAMD64/libsscore_vcs202003.so through $NOVAS_HOME setting.
+323 FSDB Dumper for VCS, Release Verdi_Q-2020.03-SP2, Linux x86_64/64bit, 08/31/2020
+324 (C) 1996 - 2020 by Synopsys, Inc.
+325 sps_call_fsdbDumpfile_main at 0 : ../src/tb_FP32Multiplier.v(108)
+326 argv[0]: (tb_counter.fsdb)
+327 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+328 *Verdi* : Create FSDB file 'tb_counter.fsdb'
+329 compile option from '/lamport/makkapakka/linyuzheng/workspace_HDL/RTL/FP32_Matrix_Multiplier/sim/simv.daidir/vcs_rebuild'.
+330   "vcs '-R' '-full64' '+v2k' '-fsdb' '+define+FSDB' '-sverilog' '-f' 'file_list.f' '-l' 'run.log' 2>&1"
+331 DVDI_is_vir_unload_enabled is enable
+332 FSDB_VCS_ENABLE_NATIVE_VC is enable
+333 sps_call_fsdbDumpvars_vd_main at 0 : ../src/tb_FP32Multiplier.v(109)
+334 [spi_vcs_vd_ppi_create_root]: no upf option
+335 [spi_vcs_vd_ppi_create_root]: no debug option
+336 FSDB dumper cannot dump UPF related power signal ($power_tree): no ppiPowerNetwork.
+337 Power dumping is enabled and VIR_REDUCTION may not work.
+338 *Verdi* : Begin traversing the scopes, layer (0).
+339 *Verdi* : End of traversing.
+340 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.110 sys,  0.350 user,  384.26M mem
+                   incr: 0.000 sys,  0.010 user,  9.18M mem
+                   accu: 0.000 sys,  0.010 user,  9.18M mem
+              accu incr: 0.000 sys,  0.010 user,  9.18M mem
+
+          Count usage: 144 var,  102 idcode,  48 callback
+                 incr: 144 var,  102 idcode,  48 callback
+                 accu: 144 var,  102 idcode,  48 callback
+            accu incr: 144 var,  102 idcode,  48 callback
+341 Elapsed time:    0:00:01    Fri Nov 15 17:30:36 2024
+342 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.110 sys,  0.350 user,  385.31M mem
+                   incr: 0.000 sys,  0.000 user,  1.05M mem
+                   accu: 0.000 sys,  0.010 user,  10.23M mem
+              accu incr: 0.000 sys,  0.000 user,  1.05M mem
+
+          Count usage: 144 var,  102 idcode,  48 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 144 var,  102 idcode,  48 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+343 Elapsed time:    0:00:01    Fri Nov 15 17:30:36 2024
+344 End of simulation at 110
+345 Elapsed time:    0:00:01    Fri Nov 15 17:30:36 2024
+346 Begin FSDB profile info:
+347 FSDB Writer : bc1(3) bcn(383) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.016498) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+348 End FSDB profile info
+349 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
+350                      - BlockUsed:1 Acquire:347 BufferUsed:5456
+351                      - Flush:3 Expand:0 ProducerWait:0 ConsumerWait:0
+352                      - MainProducerTime:0.492557625 TotalConsumerTime:0.000000000
+353                      - ElapsedTime:0.242724000
+354 Producer   0 profile - BlockUsed:1 Acquire:347 BufferUsed:5456
+355 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
+356                      - BlockUsed:1 Acquire:347 BufferUsed:5456
+357 SimExit
+358 Elapsed time:    0:00:01    Fri Nov 15 17:30:36 2024
+359 Sim process exit
